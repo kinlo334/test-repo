@@ -1,8 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Document</title>
-    </head>
-    <body></body>
+        <style>
+          
+          body{
+            font-family: "verdana",sans-serif ;
+            background-color: hsl(212, 45%, 89%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            
+          }
+          
+          .container{
+            display: flex;
+            flex-direction: column;
+            background-color: hsl(0, 0%, 100%);
+            align-items: center;
+            text-align: center;
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+          }
 
+          .qrcode{
+            width: 100%;
+            border-radius: 10px;
+            height:;
+          }
+
+          h1{
+            font-size: 1.1em;
+            margin: 20px;
+          }
+
+          p{
+            font-size: 0.9em;
+            margin: 10px;
+            color: gray;
+          }
+
+
+        </style>
+        <title>qr code</title>
+        <link rel="icon" href="/qr-code-component-main/images/favicon-32x32.png">
+    </head>
+    <body>
+        <div class="container">
+        <img src="/qr-code-component-main/images/image-qr-code.png" alt="qr code" class="qrcode">
+        <h1><strong>Improve your front-end skills by building projects</strong></h1>
+        <p>Scan the QR code to visit Fronted Mentor and take your coding skills to the next level</p>
+        </div>
+    </body>
 </html>
